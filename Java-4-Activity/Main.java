@@ -14,6 +14,7 @@ class Main {
 */
    int studentAge = 16;
    System.out.println(studentAge);
+   System.out.println("You are this many years old" + studentAge);
    int peopleLiving = 3;
    System.out.println(peopleLiving);
    int cartItems = 28;
@@ -30,6 +31,7 @@ double myGPA = 4.2;
 System.out.println(myGPA);
 double growthRate = 3.7;
 System.out.println(growthRate);
+System.out.println("Your growth rate is" + growthRate);
 
 /*  Challenge 3:
     1) Student's last name 
@@ -41,6 +43,7 @@ String lastName = "Joseph";
 System.out.println(lastName);
 char fInitial = 'L';
 System.out.println(fInitial);
+System.out.println("My first initial is" + fInitial);
 String itemDesc = "I love this item";
 System.out.println(itemDesc);
 
@@ -54,6 +57,7 @@ System.out.println(itemDesc);
     System.out.println(lightsOn);
     boolean gameOver = false;
     System.out.println(gameOver);
+    System.out.println("Game Over?" + gameOver);
     boolean batteryCharging = true;
     System.out.println(batteryCharging);
 
