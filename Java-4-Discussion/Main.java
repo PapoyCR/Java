@@ -12,7 +12,7 @@ class Main {
     // Investment amount in currency
       float invstAmt = 200.50;
     // Person's first name
-      string fName = "Mary";
+      String fName = "Mary";
     // Is a game over?
       boolean isGameOver = false;
     // Store the first initial of a name
