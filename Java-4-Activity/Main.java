@@ -15,8 +15,9 @@ class Main {
    int studentAge = 16;
    System.out.println(studentAge);
    int peopleLiving = 3;
+   System.out.println(peopleLiving);
    int cartItems = 28;
-
+    System.out.println(cartItems);
 /*  Challenge 2:
     1) temperature 
     2) student's GPA
@@ -24,8 +25,11 @@ class Main {
 */
 
 double theTemp = 67.9;
+System.out.println(theTemp);
 double myGPA = 4.2;
+System.out.println(myGPA);
 double growthRate = 3.7;
+System.out.println(growthRate);
 
 /*  Challenge 3:
     1) Student's last name 
@@ -34,8 +38,11 @@ double growthRate = 3.7;
 */
 
 String lastName = "Joseph";
+System.out.println(lastName);
 char fInitial = 'L';
+System.out.println(fInitial);
 String itemDesc = "I love this item";
+System.out.println(itemDesc);
 
 /*  Challenge 4:
     1) the status whether lights are on
@@ -44,8 +51,11 @@ String itemDesc = "I love this item";
 */
 
     boolean lightsOn = true;
+    System.out.println(lightsOn);
     boolean gameOver = false;
+    System.out.println(gameOver);
     boolean batteryCharging = true;
+    System.out.println(batteryCharging);
 
     // **************************************************
     // **** Don't write any code below here.  ***********
