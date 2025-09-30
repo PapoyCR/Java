@@ -24,13 +24,17 @@ class Main {
       double a = Input.readDouble();
       double b = Input.readDouble();
       double c = Math.sqrt(a + b);
-      System.out.println("Value of c is"+c);
+      System.out.println("Value of c is "+c);
   
 //    Challenge 3:  See file Actvy7_Eq3
-    
+      System.out.println("Enter Z value");
+      double z = Input.readDouble();
+      double q = Math.pow(z,3) +5;
+      System.out.println("Value of q is "+q);
   
 //    Challenge 4:  See file Actvy7_Eq4
-  
+      System.out.println("Enter m value");
+      
 
 //    Challenge 5:  See file Actvy7_Eq5
     
