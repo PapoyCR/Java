@@ -34,7 +34,11 @@ class Main {
   
 //    Challenge 4:  See file Actvy7_Eq4
       System.out.println("Enter m value");
-      
+      System.out.println("Enter n value");
+      double m = Input.readDouble();
+      double n = Input.readDouble();
+      double k = Math.pow(m,5)/Math.sqrt(n+1);
+      System.out.println("Value of k is "+k);
 
 //    Challenge 5:  See file Actvy7_Eq5
     
