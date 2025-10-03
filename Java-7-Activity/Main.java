@@ -41,10 +41,24 @@ class Main {
       System.out.println("Value of k is "+k);
 
 //    Challenge 5:  See file Actvy7_Eq5
-    
-  
-//    Challenge 6:  See file Actvy7_Eq6
+      System.out.println("Enter t value");
+      System.out.println("Enter r value");
+      double t = Input.readDouble();
+      double r = Input.readDouble();
+      double s = Math.pow(t,5)*Math.pow(r+2,4);
+      System.out.println("Value of s is "+s);
 
+//    Challenge 6:  See file Actvy7_Eq6
+      System.out.println("Enter x2 value");
+      System.out.println("Enter x1 value");
+      System.out.println("Enter y2 value");
+      System.out.println("Enter y1 value");
+      double x2 = Input.readDouble();
+      double x1 = Input.readDouble();
+      double y2 = Input.readDouble();
+      double y1 = Input.readDouble();
+      double d = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+      System.out.println("Value of d is "+d);
 
 //    Challenge 7:  See file Actvy7_Eq7    (HINT: What does the "plus minus: after "-b" mean?)
 
